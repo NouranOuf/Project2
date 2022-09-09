@@ -1,0 +1,129 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "img": "https://th.bing.com/th/id/OIP.5DKZ69pp5yAhB1KkwmzA3wHaEK?w=322&h=180&c=7&r=0&o=5&pid=1.7",
+      "title": "Learn Python: The Complete Python Programming Course",
+      "description": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+      "rating": "4.4",
+      "lastupdate": "13/3/2019",
+      "language": "english",
+      "price": "E£269.99",
+      "instructor": [
+        {
+          "name": "Avinash Jain",
+          "role": "CEO of TheCodex.me - Teaching 500,000+ Students how to code",
+          "img": "https://img-b.udemycdn.com/user/200_H/10260436_946b_6.jpg",
+          "rating": "4.4 Instructor Rating",
+          "Students": "73,835 Reviews",
+          "review": "891,903 Students",
+          "courses": "16 courses",
+          "personalinfo": " Avinash Jain is currently a senior at UC Berkeley majoring in Electrical Engineering and Computer Science. He's the CEO and Founder of TheCodex, an online educational platform focused on bringing the best programming content to hundreds of thousands of students around the world.His programming journey began at the age of 10, starting off with simple Python scripts to crawl the weather. Since then, he's worked at numerous companies and is professionally experienced in Python, iOS Development and Web Development. He's launched a plethora of applications in the App Store amassing thousands of downloads. Additionaly, he's competed and won in several hackathons around the world including PennApps and NWHacks. Avinash has a passion to teach - his enthusiasm and love for programming is evident in every video. For the past 7 years he's been an instructor on Udemy and he loves motivating and enabling others to pursue their programming dreams. He hopes to help students realize the power of programming and jumpstart their careers through his courses. Checkout TheCodex for all of his courses, fantastic discounts, and any guidance or help. "
+        },
+        {
+          "name": "The Codex",
+          "role": "Teaching Python through Projects",
+          "img": "https://img-b.udemycdn.com/user/200_H/52310762_220a.jpg",
+          "rating": "4.4 Instructor Rating",
+          "Students": "73,835 Reviews",
+          "review": "891,903 Students",
+          "courses": "16 courses",
+          "personalinfo": " Avinash Jain is currently a senior at UC Berkeley majoring in Electrical Engineering and Computer Science. He's the CEO and Founder of TheCodex, an online educational platform focused on bringing the best programming content to hundreds of thousands of students around the world.His programming journey began at the age of 10, starting off with simple Python scripts to crawl the weather. Since then, he's worked at numerous companies and is professionally experienced in Python, iOS Development and Web Development. He's launched a plethora of applications in the App Store amassing thousands of downloads. Additionaly, he's competed and won in several hackathons around the world including PennApps and NWHacks. Avinash has a passion to teach - his enthusiasm and love for programming is evident in every video. For the past 7 years he's been an instructor on Udemy and he loves motivating and enabling others to pursue their programming dreams. He hopes to help students realize the power of programming and jumpstart their careers through his courses. Checkout TheCodex for all of his courses, fantastic discounts, and any guidance or help. "
+        }
+      ],
+      "whatyoulearn": [
+        "Create their own Python Programs",
+        "Parse the Web and Create their own Games",
+        "Become an experienced Python Programmer"
+      ],
+      "topics": [
+        {
+          "subtitle": "up and running with Python",
+          "topic": [
+            "installing python",
+            "hello world"
+          ]
+        },
+        {
+          "subtitle": "the basics",
+          "topic": [
+            "variable",
+            " multi assignment",
+            "data types",
+            "strings",
+            "placeholders"
+          ]
+        },
+        {
+          "subtitle": "conditions and loops",
+          "topic": [
+            "if-else stats",
+            " elif stats",
+            "for loop",
+            "while loop",
+            "commenting"
+          ]
+        },
+        {
+          "subtitle": "functions",
+          "topic": [
+            "Global and Local Vars",
+            "Abs and Bool",
+            "Help and Dir",
+            "Eval and Exec",
+            "Str, Int, Float",
+            "Recap and Sum"
+            
+          ]
+        },
+        {
+          "subtitle": "classes",
+          "topic": [
+            "if-else stats",
+            " elif stats",
+            "for loop",
+            "while loop",
+            "commenting"
+          ]
+        },
+        {
+          "subtitle": "file input/output",
+          "topic": [
+            "if-else stats",
+            " elif stats",
+            "for loop",
+            "while loop",
+            "commenting"
+          ]
+        }
+      ],
+      "requirements": [
+        "Macintosh (OSX)/ Windows(Vista and higher) Machine",
+        "Internet Connection"
+      ],
+      "details": "Do you want to become a programmer? Do you want to learn how to create games, automate your browser, visualize data, and much more If you’re looking to learn Python for the very first time or need a quick brush-up, this is the course for you!Python has rapidly become one of the most popular programming languages around the world. Compared to other languages such as Java or C++, Python consistently outranks and outperforms these languages in demand from businesses and job availability. The average Python developer makes over $100,000 - this number is only going to grow in the coming years.The best part? Python is one of the easiest coding languages to learn right now. It doesn’t matter if you have no programming experience or are unfamiliar with the syntax of Python. By the time you finish this course, you'll be an absolute pro at programming!  This course will cover all the basics and several advanced concepts of Python. We’ll go over:",
+      "feedback": [
+        {
+          "name": "Steven",
+          "rating": 3,
+          "comment": "Sometimes confusing but was able to clarify. Good job nonetheless."
+        },
+        {
+          "name": "Ahmed",
+          "rating": 4,
+          "comment": "the course is specialized so that we learn ourselves deeply,simple and easy"
+        },
+        {
+          "name": "John",
+          "rating": 5,
+          "comment": "In depth concepts of python have been clearly explained. Good chemistry between student and instructor. Fantastic course. Completed every vid and had lot of fun"
+        },
+        {
+          "name": "Sofia",
+          "rating": 2,
+          "comment": "i can't say as i have not taken that many classes yet but so far it is good.edited( so yeah it was a journey for me many things happen but i am glad they did and also grateful to the person who is guiding me and thanks udemy"
+        }
+      ]
+    }
+  ]
+}

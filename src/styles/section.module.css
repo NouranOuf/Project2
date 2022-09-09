@@ -1,0 +1,23 @@
+#cont{
+    background-color: #1c1d1f;
+    height: 50%;
+    width: 100%;
+}
+#sub{
+   width: 50%;
+   padding: 50px;
+   padding-top: 10px;
+}
+.text{
+    color: white;
+    margin: 5px;
+}
+.text ul li {
+    color: white;
+    font-size: x-large;
+}
+ #sub ul li{
+   color: white;
+   list-style: none;
+   margin-left: 2px;
+}

@@ -1,0 +1,33 @@
+.cont{
+    margin-top: 50px;
+}
+#searchbar{
+    display:flex;
+    width: 70%;
+    height: 50px;
+    border: 0.5px solid black;
+}
+#input{
+    width: 90%;
+}
+#button{
+    width: 10%;
+    background-color: black;
+    color: white;
+}
+
+.comment{
+    display: flex;
+    margin-top: 20px;
+    padding: 30px;
+    padding-left: 0;
+    border-bottom: 0.5px solid black;
+}
+
+.info{
+    margin-left: 20px;
+}
+
+.thumps{
+    margin-top: 10px;
+}

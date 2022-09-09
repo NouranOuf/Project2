@@ -1,0 +1,15 @@
+#cont{
+  margin: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+    border: 0.5px solid grey ;
+    padding: 10px;
+}
+#list {
+  padding: 10px;
+  list-style: none;
+}
+
+#list li:before {
+  content: '✓';
+}

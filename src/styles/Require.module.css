@@ -1,0 +1,30 @@
+#cont{
+   margin: 20px;
+   margin-left: 0px;
+   margin-right: 0px;
+   /* background-color: blueviolet; */
+}
+.lists{
+    margin: 15px;
+    margin-left: 30px;
+}
+
+#text{
+    margin-top: 20px;
+    position: relative;
+   
+}
+#d{
+    margin-top: 30px;
+}
+.btn{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: none;
+    margin-top: 5px;
+    color: blueviolet;
+    font-size: 15px;
+   font-weight: 700;
+}
