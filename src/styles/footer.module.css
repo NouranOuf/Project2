@@ -36,7 +36,16 @@
     display: flex;
 }
 .second div{
+    display: block;
     width: 30%;
+}
+.second div a{
+    display: block;
+    width: 30%;
+}
+.second div> *{
+    margin: 20px;
+  
 }
 .logo{
     position: absolute;
@@ -45,7 +54,6 @@
     left: 5%;
     top:70%
 }
-
 
 @media (max-width:900px){
     .imgs {

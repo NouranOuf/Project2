@@ -41,12 +41,12 @@ function NavBar(props) {
           alt="udemy"
         />
       </div>
-      <ul id={styles.lists}>
-        <Link to="/HomePage">
-          <li>HomePage</li>
+      <ul className={styles.lists}>
+        <Link  to="/HomePage">
+          <li style={{color:"black"}}>HomePage</li>
         </Link>
-        <li className={styles.items}>Categories</li>
-        <li className={styles.items} id={styles.formholder}>
+        <li>Categories</li>
+        <li id={styles.formholder}>
           <form id={styles.searchbar} onSubmit={handleSubmit}>
             <input
               id={styles.button}
@@ -65,13 +65,13 @@ function NavBar(props) {
             />
           </form>
         </li>
-        <li className={styles.items}>Udemy Business</li>
-        <li className={styles.items}>Teach on Udemy</li>
+        <li >Udemy Business</li>
+        <li>Teach on Udemy</li>
         <AiOutlineShoppingCart className={styles.items} id={styles.cart} />
-        <li className={styles.items} id={styles.login}>
+        <li  id={styles.login}>
           Log in
         </li>
-        <li className={styles.items} id={styles.sign}>
+        <li id={styles.sign}>
           Sign Up
         </li>
         <GrLanguage id={styles.Language} />

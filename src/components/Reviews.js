@@ -22,9 +22,9 @@ function Reviews(props) {
         </form>
       </div>
       <div className={styles.rev}>
-        {rev.map((el) => {
+        {rev.map((el, i) => {
           return (
-            <div className={styles.comment}>
+            <div className={styles.comment} key={i}>
               <div>
                 {" "}
                 <Avatar sx={{ bgcolor: "black" }}>{el.name[0]}</Avatar>

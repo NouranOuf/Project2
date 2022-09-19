@@ -6,9 +6,12 @@
       "title": "Learn Python: The Complete Python Programming Course",
       "description": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
       "rating": "4.4",
+      "ratingnumber":"(3120 ratings)",
+      "students":"19,842 students",
       "lastupdate": "13/3/2019",
-      "language": "english",
+      "language": "English",
       "price": "E£269.99",
+      "summary":"15 sections • 146 lectures • 14h 42m total length",
       "instructor": [
         {
           "name": "Avinash Jain",
@@ -39,6 +42,7 @@
       "topics": [
         {
           "subtitle": "up and running with Python",
+          "time":"2 lectures.3min",
           "topic": [
             "installing python",
             "hello world"
@@ -46,6 +50,7 @@
         },
         {
           "subtitle": "the basics",
+          "time":"11 lectures.54min",
           "topic": [
             "variable",
             " multi assignment",
@@ -56,6 +61,7 @@
         },
         {
           "subtitle": "conditions and loops",
+          "time":"5 lectures.60min",
           "topic": [
             "if-else stats",
             " elif stats",
@@ -66,6 +72,7 @@
         },
         {
           "subtitle": "functions",
+          "time":"2 lectures.3min",
           "topic": [
             "Global and Local Vars",
             "Abs and Bool",
@@ -78,6 +85,7 @@
         },
         {
           "subtitle": "classes",
+          "time":"2 lectures.3min",
           "topic": [
             "if-else stats",
             " elif stats",
@@ -88,6 +96,7 @@
         },
         {
           "subtitle": "file input/output",
+          "time":"10 lectures.100min",
           "topic": [
             "if-else stats",
             " elif stats",

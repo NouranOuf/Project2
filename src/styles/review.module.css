@@ -1,5 +1,6 @@
 .cont{
     margin-top: 50px;
+    margin-left: 25%;
 }
 #searchbar{
     display:flex;
@@ -30,4 +31,7 @@
 
 .thumps{
     margin-top: 10px;
+}
+.thumps > *{
+    margin-right: 40px;
 }

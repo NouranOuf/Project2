@@ -22,29 +22,30 @@ function Course(props) {
   {
     items[0].topics.map((el, i) => {
       if (i < 4) {
-        arr.push(<CollapsibleTable name={el} />);
+        arr.push(<CollapsibleTable name={el} key={i}/>);
       } else {
         button = true;
-        arr2.push(<CollapsibleTable name={el} />);
+        arr2.push(<CollapsibleTable name={el} key={i} />);
       }
     });
   }
   return (
-    <div id={styles.sec}>
+    <div className={styles.sec}>
       <NavBar name={items} />
-      <Section name={items} />
+      <Section name={items} className={styles.left}/>
 
-      <div id={styles.body}>
-        <SectionTwo name={items} />
+      <div className={styles.body}>
+        <SectionTwo name={items} className={styles.left}/>
 
-        <div id={styles.collapsepart}>
-          <h2 id={styles.title}>Course Content</h2>
+        <div className={styles.collapsepart}>
+          <h2 className={styles.title}>Course Content</h2>
+          <h5 className={styles.summ}>{items[0].summary}</h5>
           <div>{arr}</div>
-          <div id={show ? styles.contentps : styles.contentp}>
-            <div id={styles.content}>{arr2}</div>
+          <div className={show ? styles.contentps : styles.contentp}>
+            <div className={styles.content}>{arr2}</div>
           </div>
           {button && (
-            <button id={styles.showmore} onClick={() => setshow(!show)}>
+            <button className={styles.showmore} onClick={() => setshow(!show)}>
               {show ? "show less" : "show more"}
             </button>
           )}
@@ -56,7 +57,7 @@ function Course(props) {
         <Reviews name={items} />
       </div>
       <Footer />
-      <FloatSection id={styles.float} name={items} />
+      <FloatSection className={styles.float} name={items} />
     </div>
   );
 }

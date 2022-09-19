@@ -13,7 +13,7 @@ function Instructor(props) {
       <h2>Instructors</h2>
       {instructors.map((el, i) => {
         return (
-          <>
+          <React.Fragment key={i}>
             <a className={styles.name}>{el.name}</a>
             <p className={styles.role}>{el.role}</p>
             <div id={styles.cont} key={i}>
@@ -56,7 +56,7 @@ function Instructor(props) {
                 </button>
               </p>
             </div>
-          </>
+          </React.Fragment>
         );
       })}
     </div>

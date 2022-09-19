@@ -95,7 +95,16 @@
 .s{
     color: #FFD700;
 }
-
+.section {
+    margin-top: 30px;
+    padding: 30px;
+    border: 0.2px solid rgb(92, 87, 87);
+}
+.coursestitle{
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;   
+     font-weight: 800;
+    font-size: 45px;
+}
 
 /*
    section -> sub -> h,p ,( slider-cont ->  content )

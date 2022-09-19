@@ -1,22 +1,28 @@
 
-#sec{
+.sec{
     height: 100%;
 }
-#body {
+.body {
     margin-left: 90px;
     width: 50%;
     height: 100%;
 }
-#title{
-    margin-bottom: 30px ;
 
+.title{
+    margin-bottom: 30px ;
 }
-#collapsepart{
+.summ{
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: rgb(70, 65, 65);
+}
+.collapsepart{
     margin: 20px;
-    margin-left: 0px;
+    margin-left: 25%;
     margin-right: 0px;
 }
-#showmore{
+.showmore{
     margin-top: 10px;
     height: 40px;
     width: 100%;
@@ -27,11 +33,11 @@
     border: 0.2px solid black;
     background-color: white;
 }
-#contentps{
+.contentps{
     height: auto;
 }
 
-#contentp{
+.contentp{
     height: 0px;
     overflow: hidden;
 }

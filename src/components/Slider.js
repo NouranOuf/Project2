@@ -6,6 +6,9 @@ import Rating from "@mui/material/Rating";
 const Slider = (props) => {
   return (
     <div id={styles.sub}>
+      <h1 className={styles.coursestitle}>A broad selection of courses</h1>
+      <p>Choose from 204,000 online video courses with new additions published every month</p>
+      <div className={styles.section}>
       <h2>Expand your career opportunities with Python</h2>
       <p>
         Take one of Udemy’s range of Python courses and learn how to code using
@@ -22,14 +25,14 @@ const Slider = (props) => {
             {props.brand.map((courses, i) => {
               return (
                 <div className={styles.card} key={i}>
-                  <Link to="/Course">
+                  <Link style={{color:"black"}}to="/Course">
                     <img
                       className={styles.img}
                       style={{ backgroundImage: `url(${courses.img})` }}
                     ></img>
                     <p className={styles.title}>{courses.title}</p>
                     {courses.instructor.map((el, i) => {
-                      return <p className={styles.inst}>{el.name}</p>;
+                      return <p className={styles.inst} key={i}>{el.name}</p>;
                     })}
                     <div>
                       {" "}
@@ -51,6 +54,7 @@ const Slider = (props) => {
         )}
         <FaChevronCircleRight size={40} id={styles.right} />
       </div>
+    </div>
     </div>
   );
 };

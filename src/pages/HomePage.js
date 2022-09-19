@@ -12,9 +12,11 @@ function HomePage(props) {
 
   return (
       <div id={styles.section}>
-        <NavBar className={styles.navbar}name={props.name} onSubmit={changeState} />
+        <NavBar name={props.name} onSubmit={changeState} />
         <Header />
-        <Slider brand={sliderdata} />
+        <div className={styles.slider}>
+        <Slider  brand={sliderdata} />
+        </div>
       </div>
   );
 }
