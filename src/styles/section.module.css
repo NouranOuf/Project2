@@ -1,0 +1,36 @@
+.cont{
+    background-color: #1c1d1f;
+    height: 50%;
+    width: 100%;
+    
+}
+.sub{
+    margin-left: 15%;
+   width: 40%;
+   padding: 50px;
+   padding-top: 10px;
+}
+.text{
+    color: white;
+    margin: 5px;
+}
+.text ul li {
+    color: white;
+    font-size: x-large;
+}
+ .sub ul li{
+   color: white;
+   list-style: none;
+   margin-left: 2px;
+}
+/* each group of info */
+.g1 , .g2 , .g3{
+    display: flex;
+    margin-top: 15px;
+}
+.g1 > * {
+    margin-right: 5px;
+}
+.g2 > *  , .g3>*{
+    margin-left: 10px;
+}

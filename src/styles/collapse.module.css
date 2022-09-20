@@ -1,0 +1,52 @@
+.cont{
+    border:none;
+    height: 50%;
+}
+.collapsible > * {
+    margin-right: 30px ;
+}
+.collapsible{
+    padding:20px;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    /* text-align: left; */
+    justify-content: space-between;
+    font-size: medium;
+    font-weight: 700;
+    padding-left: 20px;
+    border:none;
+    border-left: 0.2px solid #b9b9c58e;
+    border-right: 0.2px solid #b9b9c58e;
+    border-top: 0.2px solid #b9b9c58e;
+    background-color: #fafafaec;
+}
+.toggle{
+    display: flex;
+}
+.toggle > * {
+    margin-right: 20px;
+}
+.contentps{
+    height: auto;
+}
+
+.contentp{
+    height: 0px;
+    overflow: hidden;
+}
+.content{
+    border: 1px solid #afafaf;
+}
+.content a{
+    margin: 20px;
+    display: flex;
+}
+.content a > *{
+    margin-right:20px ;
+}
+.details{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(70, 65, 65);
+}

@@ -1,0 +1,16 @@
+.feedback{
+    margin-left: 25%;
+}
+#cont{
+    margin-top: 20px;
+    display: flex;
+    white-space: space-between;
+}
+#first{
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 123, 0);
+}
+.rat{
+    font-size: 60px;
+}

@@ -16,16 +16,12 @@
     padding-top: 20px;
     display: inline-block;
     width:95%;
-    /*
-    position: absolute;
-    */
-    border: 1px solid black;
 }
 
 /*
     the slider it self
 */
-#slider-cont{
+#slider{
     display: flex;
     justify-content: center;
     width: 100%;
@@ -33,7 +29,8 @@
     position: relative;
     align-items: center;
     padding-bottom: 10px;
-    
+   margin-top: 50px;
+
 }
 /*
  arrows
@@ -61,19 +58,17 @@
 
 #content{
     width: 89%;
-    height: 100%;
+
     white-space: nowrap;
     overflow-x: scroll;
     scroll-behavior: smooth;
     
 }
 
-
-
 .card{
     width : 275px;
     height:100%;
-   
+    
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
@@ -100,8 +95,17 @@
 .s{
     color: #FFD700;
 }
-
+.section {
+    margin-top: 30px;
+    padding: 30px;
+    border: 0.2px solid rgb(92, 87, 87);
+}
+.coursestitle{
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;   
+     font-weight: 800;
+    font-size: 45px;
+}
 
 /*
-   section -> sub -> h,p ,( slider-cont ->  content)
+   section -> sub -> h,p ,( slider-cont ->  content )
 */

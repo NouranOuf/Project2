@@ -1,0 +1,16 @@
+.cont{
+  margin-top: 2.5rem;
+  margin-left: 25%;
+  border: 0.2px solid #b9b9c58e;
+    padding: 10px;
+  
+}
+.list {
+  padding: 10px;
+  list-style: none;
+  color:  rgb(68, 65, 65);
+}
+
+.list li:before {
+  content: '✓';
+}
